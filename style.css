@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "boba nova";
+    background-color: rgb(240, 240, 240);
+}
+
+
+nav{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li{
+    margin: 0 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border-bottom: 2px solid white;
+
+}
+
+img{
+    width: 100%;
+}
+
+h1{
+    color: black;
+    font-family: 'Bona Nova';
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+    margin: 25px;
+    color: rgb(83, 83, 83);
+    font-family: 'Bona Nova';
+}
+
+#boton{
+    background-color: rgb(36, 36, 36);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Bona Nova';
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    animation: complexanimation 1s infinite;
+}
+
+#boton:hover{
+    background-color: rgb(97, 97, 97);
+}
+
+@keyframes complexanimation{
+    0%{transform: scale(1);}
+    50%{transform: scale(1.05);}
+    100%{transform: scale(1);}
+}
