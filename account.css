@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Boba Nova';
+}
+
+h1{
+    text-align: center;
+    margin: 40px;
+}
+
+#conteiner {
+    box-sizing: content-box;
+    height: 200px;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    background-color: aqua;
+    padding: 30px;
+}
+
+input {
+    padding: 20px;
+    width: 90%;
+    height: 50px;
+    text-align: start ;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: whitesmoke;
+    color: rgb(0, 0, 0);
+}
+
+
+
+input::placeholder{
+    position: relative;
+    left: 20px;
+    font-size: 16px;
+    font-family: 'boba nova';
+    color: rgb(0, 0, 0);
+}
+
+
+button{
+    width: 90%;
+    height: 50px;
+    text-align: start;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: whitesmoke;
+    color: rgb(65, 133, 192);
+}
+
+
+
+
+
+

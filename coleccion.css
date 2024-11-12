@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "boba nova";
+    
+    background-color: rgb(240, 240, 240);
+}
+
+
+h1{
+    color: black;
+    font-family: 'Bona Nova';
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+}
+#estandarte{
+    width: 100%;
+    
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    margin: 25px;
+    color: rgb(83, 83, 83);
+    font-family: 'Bona Nova';
+}
+
+section ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section ul li{
+    margin: 20px;
+}
+
+section ul li{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    transition: all 0.3s;
+
+}
+
+section ul li:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    border-radius: 4px;
+}
+
+img{
+    width: 100%;
+}

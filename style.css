@@ -9,41 +9,11 @@
 body{
     font-family: "boba nova";
     background-color: rgb(240, 240, 240);
-}
-
-
-nav{
-    background-color: black;
-    color: white;
-    padding: 10px;
-}
-
-nav ul{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-nav ul li{
-    margin: 0 10px;
-}
-
-nav ul li a{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-}
-
-nav ul li a:hover{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    border-bottom: 2px solid white;
+    overflow-x: hidden;
 
 }
 
-img{
+#estandarte{
     width: 100%;
 }
 
@@ -52,7 +22,7 @@ h1{
     font-family: 'Bona Nova';
     text-align: center;
     font-size: 50px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 p{
@@ -67,7 +37,7 @@ p{
     background-color: rgb(36, 36, 36);
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 5px; 
     padding: 10px;
     font-size: 15px;
     font-family: 'Bona Nova';
@@ -76,7 +46,6 @@ p{
     transition: all 0.3s ease;
     text-decoration: none;
 }
-
 .botones{
     display: flex;
     justify-content: center;
@@ -84,7 +53,7 @@ p{
 }
 
 #boton:hover{
-    background-color: rgb(97, 97, 97);
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
 }
 
 @keyframes complexanimation{
